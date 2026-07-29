@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ingrid Hoffmann | Advocacia Premium</title>
+
+    <!-- Meta Description -->
+    <meta name="description" content="Ingrid Hoffmann - Advocacia especializada em Direito de Família, Consumidor, Contratual, Trabalhista e mais. Atendimento humanizado e personalizado." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ingrid Hoffmann | Advocacia Premium" />
+    <meta property="og:description" content="Soluções jurídicas sofisticadas com excelência e ética." />
+    <meta property="og:type" content="website" />
+
+    <!-- Schema.org para Advogado -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Attorney",
+            "name": "Ingrid Hoffmann",
+            "description": "Advocacia especializada em Direito de Família, Consumidor, Contratual, Trabalhista e mais.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "São Paulo",
+                "addressRegion": "SP",
+                "addressCountry": "BR"
+            },
+            "telephone": "+5511999999999",
+            "email": "contato@ingridhoffmann.adv.br"
+        }
+    </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+
+    <!-- Pré-conexão para Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- ======== NAVBAR ======== -->
+    <header class="navbar" role="navigation" aria-label="Menu principal">
+        <div class="container navbar-container">
+            <div class="logo">
+                <a href="#" aria-label="Página inicial">
+                    <span class="logo-name">Ingrid</span>
+                    <span class="logo-surname">Hoffmann</span>
+                    <span class="logo-tag">Advocacia</span>
+                </a>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link" aria-current="page">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#areas" class="nav-link">Áreas</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="#localizacao" class="nav-link">Localização</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ======== HERO ======== -->
+    <section id="hero" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-pre-title">Descubra como</span>
+                <h1 class="hero-title">Ingrid Hoffmann</h1>
+                <h2 class="hero-subtitle">pode te ajudar!</h2>
+
+                <div class="hero-areas">
+                    <span class="area-tag">Direito de Família</span>
+                    <span class="area-tag">Direito do Consumidor</span>
+                    <span class="area-tag">Direito Contratual</span>
+                    <span class="area-tag">Direito Trabalhista</span>
+                    <span class="area-tag">Direito Empresarial</span>
+                    <span class="area-tag">Direito Previdenciário</span>
+                    <span class="area-tag">Direito Imobiliário</span>
+                    <span class="area-tag">Proteção de Dados (DPO)</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-primary">Agendar Consulta</a>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="btn btn-secondary">
+                        <span class="btn-icon">&#128222;</span> Falar no WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image" aria-hidden="true">
+                <div class="hero-image-placeholder">
+                    <!-- Placeholder para foto da advogada -->
+                    <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#D9C2AE" />
+                                <stop offset="100%" stop-color="#B69374" />
+                            </linearGradient>
+                        </defs>
+                        <rect width="400" height="500" rx="20" fill="url(#grad)" />
+                        <!-- Figura estilizada -->
+                        <circle cx="200" cy="180" r="70" fill="#F4ECE6" opacity="0.8" />
+                        <ellipse cx="200" cy="340" rx="100" ry="120" fill="#F4ECE6" opacity="0.6" />
+                        <text x="200" y="270" font-family="Lora, serif" font-size="24" fill="#3F342D" text-anchor="middle" font-weight="600">Ingrid</text>
+                        <text x="200" y="300" font-family="Lora, serif" font-size="20" fill="#53453B" text-anchor="middle">Hoffmann</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Elementos decorativos -->
+        <div class="hero-bg-circle"></div>
+        <div class="hero-bg-curve"></div>
+    </section>
+
+    <!-- ======== SOBRE ======== -->
+    <section id="sobre" class="sobre section-padding">
+        <div class="container">
+            <div class="sobre-grid">
+                <div class="sobre-image">
+                    <div class="sobre-image-placeholder">
+                        <svg viewBox="0 0 400 450" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="450" rx="16" fill="#F4ECE6" />
+                            <circle cx="200" cy="160" r="65" fill="#D9C2AE" opacity="0.7" />
+                            <ellipse cx="200" cy="310" rx="85" ry="100" fill="#D9C2AE" opacity="0.5" />
+                            <text x="200" y="245" font-family="Lora, serif" font-size="22" fill="#3F342D" text-anchor="middle" font-weight="600">Dra.</text>
+                            <text x="200" y="275" font-family="Lora, serif" font-size="20" fill="#53453B" text-anchor="middle">Ingrid Hoffmann</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="sobre-text">
+                    <span class="section-tag">Sobre</span>
+                    <h2 class="section-title">Excelência jurídica com alma humana</h2>
+                    <p class="sobre-desc">
+                        Com mais de 12 anos de experiência, a Dra. Ingrid Hoffmann construiu uma trajetória pautada pela ética, transparência e compromisso com resultados. Especializada em diversas áreas do Direito, oferece um atendimento personalizado, compreendendo as necessidades de cada cliente e buscando sempre a melhor solução.
+                    </p>
+
+                    <div class="sobre-mvv">
+                        <div class="mvv-item">
+                            <span class="mvv-icon">&#9733;</span>
+                            <h4>Missão</h4>
+                            <p>Promover justiça com excelência, defendendo os direitos de nossos clientes com dedicação e conhecimento.</p>
+                        </div>
+                        <div class="mvv-item">
+                            <span class="mvv-icon">&#9733;</span>
+                            <h4>Visão</h4>
+                            <p>Ser referência em advocacia de alto padrão, reconhecida pela qualidade técnica e atendimento humanizado.</p>
+                        </div>
+                        <div class="mvv-item">
+                            <span class="mvv-icon">&#9733;</span>
+                            <h4>Valores</h4>
+                            <p>Ética, sigilo profissional, compromisso, transparência e respeito ao cliente.</p>
+                        </div>
+                    </div>
+
+                    <!-- Especializações -->
+                    <div class="sobre-especializacoes">
+                        <span class="esp-tag">Direito de Família</span>
+                        <span class="esp-tag">Direito do Consumidor</span>
+                        <span class="esp-tag">Direito Contratual</span>
+                        <span class="esp-tag">Direito Trabalhista</span>
+                        <span class="esp-tag">Direito Empresarial</span>
+                        <span class="esp-tag">Direito Previdenciário</span>
+                        <span class="esp-tag">Direito Imobiliário</span>
+                        <span class="esp-tag">Proteção de Dados</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indicadores animados -->
+            <div class="indicadores">
+                <div class="indicador-item">
+                    <span class="indicador-numero" data-count="12">0</span>
+                    <span class="indicador-label">+ anos de experiência</span>
+                </div>
+                <div class="indicador-item">
+                    <span class="indicador-numero" data-count="800">0</span>
+                    <span class="indicador-label">+ clientes atendidos</span>
+                </div>
+                <div class="indicador-item">
+                    <span class="indicador-numero" data-count="98">0</span>
+                    <span class="indicador-label">% de satisfação</span>
+                </div>
+                <div class="indicador-item">
+                    <span class="indicador-numero" data-count="1500">0</span>
+                    <span class="indicador-label">+ processos</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== ÁREAS DE ATUAÇÃO ======== -->
+    <section id="areas" class="areas section-padding">
+        <div class="container">
+            <span class="section-tag">Áreas de Atuação</span>
+            <h2 class="section-title">Soluções jurídicas sob medida</h2>
+
+            <div class="areas-grid">
+                <div class="area-card">
+                    <div class="area-icon">&#9878;</div>
+                    <h3>Direito de Família</h3>
+                    <p>Divórcio, guarda, alimentos, inventário e reconhecimento de união estável.</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">&#9889;</div>
+                    <h3>Direito do Consumidor</h3>
+                    <p>Defesa em relações de consumo, indenizações e revisão de contratos.</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">&#9989;</div>
+                    <h3>Direito Contratual</h3>
+                    <p>Elaboração, revisão e análise de contratos empresariais e civis.</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">&#9881;</div>
+                    <h3>Direito Trabalhista</h3>
+                    <p>Reclamações trabalhistas, acordos e consultoria preventiva.</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">&#128200;</div>
+                    <h3>Direito Empresarial</h3>
+                    <p>Assessoria para empresas, contratos, compliance e sucessão.</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">&#128737;</div>
+                    <h3>Direito Previdenciário</h3>
+                    <p>Aposentadoria, benefícios por incapacidade e revisões.</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">&#127970;</div>
+                    <h3>Direito Imobiliário</h3>
+                    <p>Compra, venda, locação, usucapião e regularização de imóveis.</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">&#128274;</div>
+                    <h3>Direito Digital</h3>
+                    <p>Proteção de dados (LGPD), contratos digitais e cibersegurança.</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">&#128218;</div>
+                    <h3>Compliance</h3>
+                    <p>Programas de integridade, prevenção a riscos e governança.</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">&#128101;</div>
+                    <h3>DPO</h3>
+                    <p>Encaminhamento e gestão de dados pessoais conforme a LGPD.</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">&#128220;</div>
+                    <h3>LGPD</h3>
+                    <p>Consultoria e adequação à Lei Geral de Proteção de Dados.</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">&#128205;</div>
+                    <h3>Consultoria Jurídica</h3>
+                    <p>Assessoria preventiva e estratégica para pessoas físicas e jurídicas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== DIFERENCIAIS ======== -->
+    <section id="servicos" class="diferenciais section-padding">
+        <div class="container">
+            <span class="section-tag">Diferenciais</span>
+            <h2 class="section-title">Por que escolher a Dra. Ingrid Hoffmann?</h2>
+
+            <div class="diferenciais-grid">
+                <div class="diferencial-item">
+                    <span class="diferencial-icon">&#128101;</span>
+                    <h4>Atendimento Humanizado</h4>
+                    <p>Escuta ativa e empatia em cada caso, construindo relações de confiança.</p>
+                </div>
+                <div class="diferencial-item">
+                    <span class="diferencial-icon">&#9889;</span>
+                    <h4>Ética</h4>
+                    <p>Conduta irrepreensível e respeito aos princípios da advocacia.</p>
+                </div>
+                <div class="diferencial-item">
+                    <span class="diferencial-icon">&#128274;</span>
+                    <h4>Sigilo</h4>
+                    <p>Confidencialidade absoluta em todas as informações compartilhadas.</p>
+                </div>
+                <div class="diferencial-item">
+                    <span class="diferencial-icon">&#128241;</span>
+                    <h4>Atendimento Online</h4>
+                    <p>Consultas por videoconferência, facilitando o acesso à justiça.</p>
+                </div>
+                <div class="diferencial-item">
+                    <span class="diferencial-icon">&#128203;</span>
+                    <h4>Consultoria Preventiva</h4>
+                    <p>Antecipação de riscos para evitar litígios e garantir segurança jurídica.</p>
+                </div>
+                <div class="diferencial-item">
+                    <span class="diferencial-icon">&#128100;</span>
+                    <h4>Atendimento Personalizado</h4>
+                    <p>Estratégias sob medida para cada cliente, com foco em resultados.</p>
+                </div>
+                <div class="diferencial-item">
+                    <span class="diferencial-icon">&#9889;</span>
+                    <h4>Rapidez</h4>
+                    <p>Agilidade na condução de processos sem abrir mão da qualidade.</p>
+                </div>
+                <div class="diferencial-item">
+                    <span class="diferencial-icon">&#128737;</span>
+                    <h4>Compromisso</h4>
+                    <p>Dedicação integral até a resolução satisfatória de cada caso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== COMO FUNCIONA ======== -->
+    <section class="como-funciona section-padding">
+        <div class="container">
+            <span class="section-tag">Como Funciona</span>
+            <h2 class="section-title">Nossa metodologia</h2>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-step">1</span>
+                        <h4>Contato</h4>
+                        <p>Primeiro contato para entender sua demanda e agendar uma consulta.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-step">2</span>
+                        <h4>Análise</h4>
+                        <p>Estudo aprofundado do caso, levantamento de documentos e viabilidade.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-step">3</span>
+                        <h4>Planejamento</h4>
+                        <p>Definição da estratégia jurídica mais eficiente para o seu caso.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-step">4</span>
+                        <h4>Estratégia</h4>
+                        <p>Execução do plano de ação com acompanhamento contínuo.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-step">5</span>
+                        <h4>Acompanhamento</h4>
+                        <p>Suporte permanente e atualizações sobre o andamento do processo.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-step">6</span>
+                        <h4>Resultado</h4>
+                        <p>Conclusão do caso com a melhor solução possível para você.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== DEPOIMENTOS ======== -->
+    <section id="depoimentos" class="depoimentos section-padding">
+        <div class="container">
+            <span class="section-tag">Depoimentos</span>
+            <h2 class="section-title">O que nossos clientes dizem</h2>
+
+            <div class="depoimentos-slider" id="depoimentosSlider">
+                <div class="depoimentos-track" id="depoimentosTrack">
+                    <!-- Cards gerados via JS -->
+                </div>
+
+                <button class="slider-btn prev" id="prevDepoimento" aria-label="Depoimento anterior">&#10094;</button>
+                <button class="slider-btn next" id="nextDepoimento" aria-label="Próximo depoimento">&#10095;</button>
+            </div>
+            <div class="slider-dots" id="depoimentosDots"></div>
+        </div>
+    </section>
+
+    <!-- ======== FAQ ======== -->
+    <section id="faq" class="faq section-padding">
+        <div class="container">
+            <span class="section-tag">FAQ</span>
+            <h2 class="section-title">Perguntas frequentes</h2>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        Como funciona a consulta?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>A consulta inicial é uma oportunidade para conhecer seu caso, esclarecer dúvidas e traçar as primeiras diretrizes. Pode ser presencial ou online, conforme sua preferência.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        Quanto custa?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Os honorários são definidos de acordo com a complexidade de cada caso. Na consulta inicial, apresentamos uma proposta transparente e personalizada.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        Atende online?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim, realizamos atendimento por videoconferência, garantindo comodidade e segurança para clientes de qualquer localidade.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        Quais documentos levar?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Os documentos variam conforme o caso. No agendamento, orientamos sobre a documentação necessária para sua situação específica.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        Como entrar em contato?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Você pode nos contatar pelo telefone, WhatsApp, e-mail ou através do formulário desta página. Respondemos rapidamente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== LOCALIZAÇÃO ======== -->
+    <section id="localizacao" class="localizacao section-padding">
+        <div class="container">
+            <span class="section-tag">Localização</span>
+            <h2 class="section-title">Onde nos encontrar</h2>
+
+            <div class="localizacao-grid">
+                <div class="localizacao-mapa">
+                    <!-- Google Maps embed -->
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.097840853747!2d-46.65534148441875!3d-23.56490418468247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b7f5f9b1e3%3A0x1f6b6f9f7f0a6a6a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1610000000000"
+                    width="100%"
+                    height="100%"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                title="Mapa do escritório">
+            </iframe>
+        </div>
+
+        <div class="localizacao-info">
+            <div class="info-item">
+                <span class="info-icon">&#128205;</span>
+                <div>
+                    <h4>Endereço</h4>
+                    <p>Av. Paulista, 1000, 10º andar<br />São Paulo - SP, 01310-100</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">&#128222;</span>
+                <div>
+                    <h4>Telefone</h4>
+                    <p>(11) 99999-9999</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">&#128172;</span>
+                <div>
+                    <h4>WhatsApp</h4>
+                    <p>(11) 99999-9999</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">&#128231;</span>
+                <div>
+                    <h4>E-mail</h4>
+                    <p>contato@ingridhoffmann.adv.br</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">&#128339;</span>
+                <div>
+                    <h4>Horário</h4>
+                    <p>Segunda a Sexta, 9h às 18h</p>
+                </div>
+            </div>
+            <a href="https://maps.google.com" target="_blank" class="btn btn-primary btn-mapa">Como chegar</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- ======== CONTATO ======== -->
+<section id="contato" class="contato section-padding">
+    <div class="container">
+        <span class="section-tag">Contato</span>
+        <h2 class="section-title">Fale conosco</h2>
+
+        <div class="contato-grid">
+            <form class="contato-form" id="contatoForm" novalidate>
+                <div class="form-group">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+                    <span class="form-error">Por favor, insira seu nome.</span>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+                    <span class="form-error">Insira um e-mail válido.</span>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required />
+                    <span class="form-error">Insira um telefone válido.</span>
+                </div>
+                <div class="form-group">
+                    <label for="area">Área de interesse</label>
+                    <select id="area" name="area">
+                        <option value="">Selecione...</option>
+                        <option value="familia">Direito de Família</option>
+                        <option value="consumidor">Direito do Consumidor</option>
+                        <option value="contratual">Direito Contratual</option>
+                        <option value="trabalhista">Direito Trabalhista</option>
+                        <option value="empresarial">Direito Empresarial</option>
+                        <option value="previdenciario">Direito Previdenciário</option>
+                        <option value="imobiliario">Direito Imobiliário</option>
+                        <option value="digital">Direito Digital</option>
+                        <option value="lgpd">LGPD / DPO</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva sua solicitação..." required></textarea>
+                    <span class="form-error">Por favor, escreva sua mensagem.</span>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="lgpd" name="lgpd" required />
+                    <label for="lgpd">Li e aceito a <a href="#">Política de Privacidade</a> e autorizo o tratamento dos meus dados conforme a LGPD.</label>
+                    <span class="form-error">Você deve aceitar a política de privacidade.</span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-submit">Enviar mensagem</button>
+            </form>
+
+            <div class="contato-info-extra">
+                <div class="contato-extra-item">
+                    <span class="extra-icon">&#128222;</span>
+                    <div>
+                        <h4>Telefone</h4>
+                        <p>(11) 99999-9999</p>
+                    </div>
+                </div>
+                <div class="contato-extra-item">
+                    <span class="extra-icon">&#128172;</span>
+                    <div>
+                        <h4>WhatsApp</h4>
+                        <p>(11) 99999-9999</p>
+                    </div>
+                </div>
+                <div class="contato-extra-item">
+                    <span class="extra-icon">&#128231;</span>
+                    <div>
+                        <h4>E-mail</h4>
+                        <p>contato@ingridhoffmann.adv.br</p>
+                    </div>
+                </div>
+                <div class="contato-extra-item">
+                    <span class="extra-icon">&#128339;</span>
+                    <div>
+                        <h4>Horário de atendimento</h4>
+                        <p>Seg a Sex, 9h às 18h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ======== FOOTER ======== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-name">Ingrid</span>
+                    <span class="logo-surname">Hoffmann</span>
+                    <span class="logo-tag">Advocacia</span>
+                </div>
+                <p>Excelência jurídica com alma humana. Soluções personalizadas para cada cliente.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><span>&#128247;</span></a>
+                    <a href="#" aria-label="LinkedIn"><span>&#128101;</span></a>
+                    <a href="#" aria-label="Facebook"><span>&#128206;</span></a>
+                    <a href="#" aria-label="WhatsApp"><span>&#128172;</span></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#areas">Áreas</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contato">
+                <h4>Contato</h4>
+                <ul>
+                    <li>&#128222; (11) 99999-9999</li>
+                    <li>&#128172; (11) 99999-9999</li>
+                    <li>&#128231; contato@ingridhoffmann.adv.br</li>
+                    <li>&#128205; Av. Paulista, 1000 - São Paulo</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ingrid Hoffmann. Todos os direitos reservados.</p>
+            <p>Desenvolvido com excelência.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- ======== SCRIPTS ======== -->
+<script src="js/menu.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/counters.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/form.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

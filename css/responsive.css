@@ -1,0 +1,220 @@
+/* ============================================
+   RESPONSIVIDADE
+   ============================================ */
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: 3.2rem;
+    }
+    .hero-subtitle {
+        font-size: 1.8rem;
+    }
+    .areas-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .diferenciais-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .depoimento-card {
+        min-width: calc(100% / 2 - 15px);
+    }
+}
+
+/* Tablets pequenos e celulares grandes */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+    .hero-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 40px;
+    }
+    .hero-title {
+        font-size: 2.8rem;
+    }
+    .hero-subtitle {
+        font-size: 1.6rem;
+    }
+    .hero-areas {
+        justify-content: center;
+    }
+    .hero-buttons {
+        justify-content: center;
+    }
+    .hero-image {
+        order: -1;
+    }
+    .hero-image-placeholder {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .sobre-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .sobre-mvv {
+        grid-template-columns: 1fr;
+    }
+    .indicadores {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 30px 20px;
+    }
+    .indicador-numero {
+        font-size: 2.2rem;
+    }
+
+    .areas-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .diferenciais-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .timeline {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    .depoimento-card {
+        min-width: calc(100% - 20px);
+    }
+    .depoimentos-slider {
+        padding: 0 20px;
+    }
+
+    .localizacao-grid {
+        grid-template-columns: 1fr;
+    }
+    .contato-grid {
+        grid-template-columns: 1fr;
+    }
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .navbar-container {
+        padding: 0 16px;
+    }
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255, 255, 255, 0.96);
+        backdrop-filter: blur(12px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.4s ease;
+    }
+    .nav-menu.open {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .nav-list {
+        flex-direction: column;
+        gap: 24px;
+        text-align: center;
+    }
+    .nav-link {
+        font-size: 1.4rem;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+}
+
+/* Celulares pequenos */
+@media (max-width: 480px) {
+    .section-padding {
+        padding: 50px 0;
+    }
+    .hero {
+        padding: 80px 0 40px;
+    }
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    .hero-areas {
+        gap: 6px 10px;
+    }
+    .area-tag {
+        font-size: 0.7rem;
+        padding: 4px 12px;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn {
+        padding: 12px 28px;
+        font-size: 0.9rem;
+    }
+
+    .areas-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+    .area-card {
+        padding: 20px 16px;
+    }
+    .area-icon {
+        font-size: 2rem;
+    }
+    .area-card h3 {
+        font-size: 1rem;
+    }
+
+    .diferenciais-grid {
+        grid-template-columns: 1fr;
+    }
+    .contato-form {
+        padding: 24px 20px;
+    }
+    .localizacao-mapa {
+        height: 250px;
+    }
+    .indicadores {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        padding: 20px 16px;
+    }
+    .indicador-numero {
+        font-size: 1.8rem;
+    }
+    .slider-btn {
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+    }
+    .depoimentos-slider {
+        padding: 0 12px;
+    }
+}
+
+/* Smart TVs e telas grandes (opcional) */
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1400px;
+    }
+    .hero-title {
+        font-size: 5rem;
+    }
+    .hero-subtitle {
+        font-size: 2.8rem;
+    }
+}
